@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        
+        body{
+            font-family: arial;
+        }
+        .asButtonText{
+            background: none;
+            border: none;
+            padding: none;
+            margin: none;
+        }
+        
+        .box-blue {
+            margin:0 0 25px;
+            overflow:hidden;
+            padding:20px;
+            background-color:#6BD5F1;
+            border:1px solid #afcde3;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+        
+        input.rounded {
+            border: 1px solid #ccc;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            -moz-box-shadow: 2px 2px 3px #666;
+            -webkit-box-shadow: 2px 2px 3px #666;
+            box-shadow: 2px 2px 3px #666;
+            font-size: 15px;
+            padding: 4px 7px;
+            
+            outline: 0;
+            -webkit-appearance: none;
+        }
+        input.rounded:focus {
+            border-color: #339933;
+        }
+        
+        .dropDown{
+            border: 1px solid #ccc;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            -moz-box-shadow: 2px 2px 3px #666;
+            -webkit-box-shadow: 2px 2px 3px #666;
+            box-shadow: 2px 2px 3px #666;
+            font-size: 15px;
+            padding: 4px 7px;
+            
+            outline: 0;
+            -webkit-appearance: none;
+            border-color: #339933;
+        }
+        
+        .field{
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            -webkit-border-radius: 5px;
+        }
+    </style>
+</head>
+    
+<body>
+    
+    <fieldset class="field" style="background-color: #000000; height:50px;">
+        
+        <span style="font-size:24px; color:#FFFFFF; position:absolute; left:10%; top:5%; font-weight:bolder;">
+            BloodBank & Donor Management System
+        </span>
+        <button class="asButtonText" style="font-size: 18px; color: #FFFFFF; position: absolute; left: 67%; top: 5%; font-weight: lighter;">
+            Home
+        </button>
+        
+        <button class="asButtonText" style="font-size: 18px; color: #FFFFFF; position: absolute; left: 74%; top: 5%; font-weight: lighter;">
+            Blood Tips
+        </button>
+        
+        <button class="asButtonText" style="font-size: 18px; color: #FFFFFF; position: absolute; left: 83%; top: 5%; font-weight: lighter;">
+            About
+        </button>
+        
+        <button class="asButtonText" style="font-size: 18px; color: #FFFFFF; position: absolute; left: 89%; top: 5%; font-weight: lighter;">
+            Contact Us
+        </button>
+   
+    </fieldset>
+    
+    <span style="font-size: 30px; font-family: arial; position: absolute; left: 10%; top: 20%; font-weight: bolder;">
+    
+        Become a Donor
+    </span>
+    
+    <fieldset class="box-blue" style="background-color: #ebebe0; height:10px; margin-top: 8%; margin-left: 10%; margin-right: 14% ">
+    
+        <button class="asButtonText" style="font-size: 16px; position:absolute; left:11%; top:31%; ">
+        
+            <span style="color: #0052cc">
+            
+                Home
+            </span>
+        </button>
+        <span style="font-size: 16px; position:absolute; left:15%; top:31%; font-weight: 10">
+        
+            /   Become a Donor
+        </span>
+    </fieldset>
+   
+    
+        <label for="FullName">
+        
+            <span style="font-size: 20px; position:absolute; left:10%; top:40%; font-weight: bold; word-spacing: 2px;">
+            
+                Full Name
+            </span>
+            <span style="color: #ff0000; font-size: 18px; position:absolute; left:17%; top:40%;">
+            
+                 *
+            </span>
+        </label>
+        
+        <input class="rounded" type="text" name="FullName" style="position:absolute; left:10%; top:44%; height: 30px; width: 293px;">
+        
+        
+        <label for="EmailId">
+        
+            <span style="font-size: 20px; position:absolute; left:37%; top:40%; font-weight: bold; word-spacing: 5px;">
+            
+                Email Id
+            </span>
+            <span style="color: #ff0000; font-size: 18px; position:absolute; left:43%; top:40%;">
+            
+                 *
+            </span>
+        </label>
+        
+        <input class="rounded" type="text" name="EmailId" style="position: absolute; left:37%; top:44%; height: 30px; width: 293px;">
+        
+        
+        <label for="MobileNumber">
+        
+            <span style="font-size: 20px; position:absolute; left:64%; top:40%; font-weight: bold;">
+            
+                Mobile Number
+            </span>
+            <span style="color: #ff0000; font-size: 18px; position:absolute; left:75%; top:40%;">
+            
+                 *
+            </span>
+        </label>
+        
+        <input class="rounded" type="text" name="EmailId" style="position: absolute; left:64%; top:44%; height: 30px; width: 293px;">
+        
+        
+        
+        
+        
+        
+        
+        
+        <label for="Age">
+        
+            <span style="font-size: 20px; position:absolute; left:10%; top:55%; font-weight: bold; word-spacing: 5px;">
+            
+                Age
+            </span>
+            <span style="color: #ff0000; font-size: 18px; position:absolute; left:13%; top:55%;">
+            
+                 *
+            </span>
+        </label>
+        
+        <input class="rounded" type="number" name="Age" style="position:absolute; left:10%; top:59%; height: 30px; width: 293px;">
+        
+        
+        <label for="Gender">
+        
+            <span style="font-size: 20px; position:absolute; left:37%; top:55%; font-weight: bold; word-spacing: 5px;">
+            
+                Gender
+            </span>
+            <span style="color: #ff0000; font-size: 18px; position:absolute; left:42%; top:55%;">
+            
+                 *
+            </span>
+        </label>
+        <select class="dropDown" name="BloodGroup" class="rounded" type="text" name="BloodGroup" style="position: absolute; left:37%; top:59%; height: 30px; width: 293px;">
+        
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            
+            <option value="Gender" selected="selected">Select</option>
+
+        </select>
+    
+    
+       
+        
+        
+        <label for="BloodGroup">
+        
+            <span style="font-size: 20px; position:absolute; left:64%; top:55%; font-weight: bold; word-spacing: -1px;">
+            
+                Blood Group
+            </span>
+            <span style="color: #ff0000; font-size: 18px; position:absolute; left:73%; top:55%;">
+            
+                 *
+            </span>
+        </label>
+        
+        <select class="dropDown" name="BloodGroup" class="rounded" type="text" name="BloodGroup" style="position: absolute; left:64%; top:59%; height: 30px; width: 293px;">
+        
+            <option value="A+">A+</option>
+            <option value="AB+">AB+</option>
+            <option value="O+">O+</option>
+            <option value="A-">A-</option>
+            <option value="AB-">AB-</option>
+            <option value="O-">O-</option>
+            
+            <option value="BloodGroup" selected="selected">Select</option>
+
+        </select>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <label for="Address">
+        
+            <span style="font-size: 20px; position:absolute; left:10%; top:70%; font-weight: bold; word-spacing: 5px;">
+            
+                Address
+            </span>
+            <span style="color: #ff0000; font-size: 18px; position:absolute; left:15%; top:70%;">
+            
+                 *
+            </span>
+        </label>
+        
+        <input class="rounded" type="text" name="Address" style="position:absolute; left:10%; top:74%; height: 80px; width: 293px;">
+        
+        
+        <label for="Message">
+        
+            <span style="font-size: 20px; position:absolute; left:37%; top:70%; font-weight: bold; word-spacing: 5px;">
+            
+                Message
+            </span>
+        </label>
+        
+        <input class="rounded" type="text" name="Message" style="position: absolute; left:37%; top:74%; height: 80px; width: 663px;">
+        
+        
+        
+        
+        <fieldset class="box-blue" style="background-color: #ebebe0; height:30px; margin-top: 30%; margin-left: 31%; margin-right: 30%; ">
+        <button class="dropDown" type="button" value="push" style="fontsize: 20px; color: #000000; background-color: #ff4d4d; position: absolute; left:47%; top:98%; height: 40px; width: 100px;">
+            Register
+        </button>
+            </fieldset>
+    
+    
+    <fieldset class="box-blue" style="background-color: #262626; height:150px; margin-top: 5%;">
+    
+            <span style="font-size: 20px; color:#FFFFFF; position: absolute; left: 33%; top: 129%">
+            
+                Copyright © BloodBank Management System 2017
+            </span>
+    
+    </fieldset>
+    
+    
+    
+  
+</body>
+   
+</html>
